@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bibian's Scaled Stacked Bar Chart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./inspector.css">
+        
+       
+        <script type="module">
+
+            import define from "./index.js";
+            import {Runtime, Library, Inspector} from "./runtime.js";
+
+            const runtime = new Runtime();
+            const main = runtime.module(define, Inspector.into(document.body));
+
+        </script>
+    </head>
+    <body>Plot of the Employment Status of Married Employees, Voluntarily Retiring Employees and Employees Retiring by Gender!
+    </body>
+</html>
