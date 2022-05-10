@@ -1,0 +1,13 @@
+{
+    "name": "IgarandoBibian",
+    "main": "app.js",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Bibian",
+    "contributors": [],
+    "dependencies": {},
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
